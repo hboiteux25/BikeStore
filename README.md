@@ -1,3 +1,3 @@
-# BikeStore
+# BikeStore - Projeto Origamid
 
 Loja BikeStore

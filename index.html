@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8" />
@@ -11,10 +11,15 @@
     <link rel="stylesheet" href="css/grid.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsivo.css" />
+    <script>
+        document.documentElement.classList.add("js");
+    </script>
 
 </head>
 
 <body>
+
+
     <!--MENU-->
     <header class="header">
         <div class="container">
@@ -100,12 +105,12 @@
     <section class="portifolio">
         <div class="container">
             <h2 class="subtitulo">Portifólio</h2>
-            <ul class="portifolio_lista">
+            <ul class="portifolio_lista" data-slide="portifolio">
                 <li class="grid-8">
-                    <img src="img/portfolio/retro.jpg" alt="Bike Retrô" />
+                    <img src="img/portfolio/esporte.jpg" alt="Bike Retrô" />
                 </li>
                 <li class="grid-8">
-                    <img src="img/portfolio/passeio.jpg" alt="Bike Passeio" />
+                    <img src="img/portfolio/esporte.jpg" alt="Bike Passeio" />
                 </li>
                 <li class="grid-16">
                     <img src="img/portfolio/esporte.jpg" alt="Bike Esporte" />
@@ -191,9 +196,9 @@
                         <li> <img src="img/redes-sociais/twitter.svg" alt=""></li>
                     </ul>
                 </div>
-
-
     </footer>
+    <script src="./js/simple-slide.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

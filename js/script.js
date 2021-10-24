@@ -3,3 +3,5 @@ new SimpleSlide({
     auto: true, // se o slide deve passar automaticamente
     time: 5000 // tempo de transição dos slides
 })
+
+new SimpleAnime()
